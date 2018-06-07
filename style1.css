@@ -1,0 +1,166 @@
+ .navbar-brand img{
+   width: 125px;
+   height: 105px;
+}
+
+.navbar-nav li{
+   padding-right: 10px;
+   font-size: 18px;
+   padding-top: 30px;
+   font-family: Acme,cursive;
+}
+
+.navbar-nav form{
+	margin-top: 30px;
+}
+
+ .navbar{
+   border: 2px solid black;
+   border-radius: 10px;
+ }
+
+#Right{
+	margin-left: 50px;
+}
+
+.carousel-inner img {
+      width: 100%;
+      height: 100%;
+}
+
+.carousel {
+	margin-top: 150px;
+}
+.jumbotron{
+   margin: 20px 0;
+   background-color: #DAF9F2;
+   border-radius: 20px;
+   font-size: 20px;
+   text-align: center;
+}
+
+.jumbotron h1{
+   text-decoration: underline;
+   font-family: Acme;
+   font-size: 60px;
+   text-align: center;
+}
+
+.card-deck img{
+	margin: auto;
+	margin-top: 10px;
+   width: 150px;
+   height: 150px;
+}
+
+.bg-basic{
+	border: 5px solid black;
+	border-radius: 10px;
+	text-align: center;
+}
+
+#collapseTwo img{
+	width: 200px;
+	height: 200px;
+}
+
+.col-form-label{
+	text-align: left;
+}
+
+#accordion{
+	margin-top: 20px;
+	border:5px solid red;
+	border-radius: 10px;
+}
+
+#accordion a{
+	color: black;
+	font-size: 30px;
+	font-family: Acme;
+}
+
+.list-group h4{
+   font-size: 20px;
+   text-align: left; 
+   color: red;
+}
+
+.list-group p{
+   font-size: 15px;
+   text-align: justify;
+   color: black;
+}
+
+.list-group{
+	border: 2px solid black;
+	margin-bottom: 20px;
+}
+
+footer .row p{
+   font-size: 10px;
+}
+
+footer{
+   background: #333;
+   color: #eee;
+   font-size: 11px;
+   padding: 20px;
+}
+
+@media (max-width: 768px) {
+   
+   #myCarousel .item{
+      height: 310px;
+         
+      }
+
+      #slide1 {
+         background: url("images/train_small.jpeg") top center no-repeat;
+            
+      }
+
+      #slide2 {
+         background: url("images/supp_small.jpeg") top center no-repeat;
+            
+      }
+
+      #slide3 {
+         background: url("images/comm_small.jpeg") top center no-repeat;
+            
+      }
+
+      .carousel-caption{
+         font-size: 10px;
+      }
+
+      .carousel-caption h4{
+         font-size: 16px;
+      }
+   
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+      #myCarousel .item{
+      height: 500px;
+         
+      }
+
+      #slide1 {
+         background: url("images/train_large.jpeg") top center no-repeat;
+            
+      }
+
+      #slide2 {
+         background: url("images/supp_large.jpeg") top center no-repeat;
+            
+      }
+
+      #slide3 {
+         background: url("images/comm_large.jpeg") top center no-repeat;
+            
+      }
+
+}
